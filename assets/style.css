@@ -2,11 +2,6 @@ body {
   background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 100px;
-}
-
 h4 {
   text-align: center;
   padding: -45px;
@@ -54,7 +49,7 @@ a:hover {
   color: plum;
 }
 
-img {
+#personal_photo {
   display: block;
   margin: auto;
   padding: 25px;
@@ -89,8 +84,25 @@ p {
   left: 50px;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  padding-left: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 4px;
+  justify-content: right;
+}
+
 @media screen and (max-width: 768px) {
   * {
-    width: 50%;
+    width: 100;
   }
 }
