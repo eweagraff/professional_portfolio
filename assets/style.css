@@ -7,10 +7,14 @@ h4 {
   padding: -45px;
 }
 
+h2 {
+  text-align: center;
+}
+
 header {
   padding: 35px;
   margin: 50px;
-  border: 10px solid plum;
+  border: 5px solid plum;
   background-color: darkslategray;
   border-radius: 10px;
 }
@@ -18,7 +22,7 @@ header {
 footer {
   padding: 35px;
   margin: 50px;
-  border: 10px solid plum;
+  border: 5px solid plum;
   background-color: darkslategray;
   border-radius: 10px;
 }
@@ -53,9 +57,13 @@ a:hover {
   display: block;
   margin: auto;
   padding: 25px;
-  border: 10px solid plum;
+  border: 5px solid plum;
   border-radius: 50%;
   background-color: darkslategray;
+}
+
+img {
+  border: solid darkslategray;
 }
 
 p {
@@ -64,9 +72,10 @@ p {
   font-size: large;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  border: 10px solid plum;
+  border: 5px solid plum;
   background-color: darkslategray;
   border-radius: 10px;
+  padding: 20px;
 }
 
 .float-left {
