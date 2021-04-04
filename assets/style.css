@@ -20,17 +20,15 @@ h3 {
   text-align: center;
   color: darkslategray;
   font-size: 30px;
+  background-color: lavender;
+  border: solid darkslategray;
+  padding: 20px;
+  margin: 10px;
 }
 
 h4 {
   text-align: center;
   padding: -45px;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 a {
@@ -58,8 +56,6 @@ p {
   color: lavender;
   font-weight: bolder;
   font-size: large;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border: 5px solid plum;
   background-color: darkslategray;
   border-radius: 10px;
@@ -72,6 +68,12 @@ footer {
   border: 5px solid plum;
   background-color: darkslategray;
   border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .link:hover {
