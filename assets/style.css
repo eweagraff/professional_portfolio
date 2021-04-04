@@ -1,14 +1,10 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 body {
   background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
-}
-
-h4 {
-  text-align: center;
-  padding: -45px;
-}
-
-h2 {
-  text-align: center;
 }
 
 header {
@@ -19,12 +15,30 @@ header {
   border-radius: 10px;
 }
 
-footer {
-  padding: 35px;
-  margin: 50px;
-  border: 5px solid plum;
-  background-color: darkslategray;
-  border-radius: 10px;
+h2,
+h3 {
+  text-align: center;
+  color: darkslategray;
+  font-size: 30px;
+}
+
+h4 {
+  text-align: center;
+  padding: -45px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: lavenderblush;
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 ul {
@@ -37,19 +51,30 @@ li {
   float: right;
   padding: 5px;
   color: lavender;
+  font-weight: bold;
 }
 
-a {
-  color: lavenderblush;
-  font-size: medium;
-  font-weight: bold;
+p {
+  color: lavender;
+  font-weight: bolder;
+  font-size: large;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-decoration: none;
-  font-size: 20px;
+  border: 5px solid plum;
+  background-color: darkslategray;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-a:hover {
+footer {
+  padding: 35px;
+  margin: 50px;
+  border: 5px solid plum;
+  background-color: darkslategray;
+  border-radius: 10px;
+}
+
+.link:hover {
   color: plum;
 }
 
@@ -66,40 +91,12 @@ img {
   border: solid darkslategray;
 }
 
-p {
-  color: lavender;
-  font-weight: bolder;
-  font-size: large;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  border: 5px solid plum;
-  background-color: darkslategray;
-  border-radius: 10px;
-  padding: 20px;
-}
-
-/* .name {
-  position: absolute;
-  right: 1000px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 25px;
-  margin-bottom: 100px;
-  font-weight: bold;
-} */
 .mx-auto {
   margin: 0 auto;
-}
-
-#float-right {
-  position: absolute;
-  left: 50px;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: lavender;
+  font-size: medium;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .text {
