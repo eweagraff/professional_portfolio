@@ -23,7 +23,8 @@ h3 {
   background-color: lavender;
   border: solid darkslategray;
   padding: 20px;
-  margin: 10px;
+  margin: 25px;
+  border-radius: 5px;
 }
 
 h4 {
