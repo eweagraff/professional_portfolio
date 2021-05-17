@@ -23,7 +23,7 @@ h3 {
   background-color: lavender;
   border: solid darkslategray;
   padding: 20px;
-  margin: 25px;
+  margin: 40px;
   border-radius: 5px;
 }
 
@@ -92,6 +92,7 @@ footer {
 
 img {
   border: solid darkslategray;
+  border-width: thick;
 }
 
 .mx-auto {
@@ -114,8 +115,8 @@ img {
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
-  * {
-    width: 100;
+@media screen and (max-width: 980px) {
+  .container .image {
+    flex: 0 0 100%;
   }
 }
